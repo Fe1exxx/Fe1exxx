@@ -1,21 +1,18 @@
 <div align="center">
-  <a href="https://react.dev">
-    <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black" alt="React" />
-  </a>
-  <a href="https://www.typescriptlang.org">
-    <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+   <a href="https://react.dev">
+    <img src="https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
   </a>
   <a href="https://vitejs.dev">
-    <img src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/Vite-5.4.8-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   </a>
   <a href="https://tailwindcss.com">
-    <img src="https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-3.4.1-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   </a>
   <a href="https://git-scm.com">
-    <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/Git-2.40.0-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   </a>
   <a href="https://github.com">
-    <img src="https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </div>
 
