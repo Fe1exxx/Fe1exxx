@@ -56,6 +56,7 @@
 | **Тема + текст** | React, TS | Переключение темы, сохранение в `localStorage`, управляемые инпуты | [код](https://github.com/Fe1exxx/React_changing_the_theme_and_text_and_localStorage) |
 | **Прокрутка** | Vanilla JS | Индикатор скролла, плавный возврат наверх | [код](https://github.com/Fe1exxx/Focus_and_scroll_indicator) |
 | **Lasles VPN** | React, TS, Tailwind | адаптивная сетка, первый выложенный сайт на react | [открыть](https://fe1exxx.github.io/testDeployReact/) |
+| **Сайт одежды** | HTML, CSS, JS, SCSS | Работа со стилями | [открыть](https://fe1exxx.github.io/Clothes/) |
 | **Портфолио** | React, TS, Vite | Минималистичный лендинг | [открыть](https://fe1exxx.github.io/Portfolio/) |
 
 ---
