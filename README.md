@@ -1,5 +1,5 @@
 <div align="center">
-   <a href="https://react.dev">
+  <a href="https://react.dev">
     <img src="https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
   </a>
   <a href="https://vitejs.dev">
@@ -7,6 +7,15 @@
   </a>
   <a href="https://tailwindcss.com">
     <img src="https://img.shields.io/badge/Tailwind_CSS-3.4.1-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  </a>
+  <a href="https://nodejs.org">
+    <img src="https://img.shields.io/badge/Node.js-20.18.0-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  </a>
+  <a href="https://expressjs.com">
+    <img src="https://img.shields.io/badge/Express-4.19.2-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  </a>
+  <a href="https://www.postgresql.org">
+    <img src="https://img.shields.io/badge/PostgreSQL-16.3-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   </a>
   <a href="https://git-scm.com">
     <img src="https://img.shields.io/badge/Git-2.40.0-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
@@ -16,61 +25,73 @@
   </a>
 </div>
 
-# Frontend developer
+# Frontend / Fullstack Developer
+
+Frontend-разработчик с фокусом на React и TypeScript. Активно расширяю компетенции в backend-разработке: проектирую и реализую fullstack-приложения «с нуля» — от PostgreSQL до UI.
+
+Пишу декларативный, типизированный и поддерживаемый код с акцентом на читаемость, безопасность и долгосрочную поддержку.
 
 ---
 
-## Мой стек:
+## Технологический стек
 
-### Frontend  
-| Категория        | Технологии |
-|------------------|------------|
-| **Основа**       | HTML, CSS, семантика, доступность (`aria-label`, `role`) |
-| **Фреймворк**    | React: компоненты, `useState`, `useEffect`, `useRef`, иммутабельность |
-| **Типизация**    | TypeScript: `interface`, `type`, `union`, `keyof`, `satisfies`, `as const` |
-| **Стили**        | Tailwind CSS (адаптив, `flex`/`grid`) |
-| **Сборка**       | Vite |
+### Frontend
+| Категория       | Технологии |
+|-----------------|------------|
+| **Язык**        | TypeScript (`strict`), JavaScript (ES2022+) |
+| **Фреймворк**   | React (функциональные компоненты, хуки: `useState`, `useEffect`, `useMemo`, `useCallback`, `React.memo`) |
+| **Стили**       | Tailwind CSS, адаптивная и семантическая вёрстка |
+| **Сборка**      | Vite |
+| **Работа с данными** | `fetch`, `async/await`, обработка ошибок, валидация входных данных, защита от `undefined` |
+| **Хранение**    | `localStorage` с гидрацией состояния |
+| **Оптимизация** | избегание мутаций, `useCallback` при передаче колбэков, `passive: true` для scroll |
 
-### Инструменты  
-| Назначение       | Инструменты |
-|------------------|-------------|
-| **Контроль версий** | Git, GitHub (ветки, PR) |
-| **Отладка**      | DevTools, `console`, React DevTools |
-| **Деплой**       | GitHub Pages |
+### Backend
+| Уровень         | Технологии |
+|-----------------|------------|
+| **Среда**       | Node.js |
+| **Фреймворк**   | Express |
+| **База данных** | PostgreSQL, `pg` (пулы соединений, параметризованные запросы) |
+| **Безопасность**| `cors`, `.env`, `dotenv`, валидация входных данных |
+| **Архитектура** | REST API (`GET`, `POST`), слоистая структура (роуты → сервисы → БД) |
 
-### Практика  
--  `fetch` + `async/await` + `try/catch`  
--  Валидация данных и защита от `undefined`  
--  `localStorage` с гидрацией состояния  
--  Фильтрация, поиск, динамические списки  
--  Производительность: `passive: true`, `useCallback` при необходимости  
--  Тестирование: начинаю с React Testing Library (`render`, `userEvent`)
-
----
-
-## Проекты
-
-| Название | Стек | Что сделано | Ссылка |
-|----------|------|-------------|--------|
-| **Курс: Web‑разработка** | Bootstrap | Адаптивная структура, карточки, кнопки, формы | [открыть](https://fe1exxx.github.io/BootStrap/) |
-| **Тема + текст** | React, TS | Переключение темы, сохранение в `localStorage`, управляемые инпуты | [код](https://github.com/Fe1exxx/React_changing_the_theme_and_text_and_localStorage) |
-| **Прокрутка** | Vanilla JS | Индикатор скролла, плавный возврат наверх | [код](https://github.com/Fe1exxx/Focus_and_scroll_indicator) |
-| **Lasles VPN** | React, TS, Tailwind | адаптивная сетка, первый выложенный сайт на react | [открыть](https://fe1exxx.github.io/testDeployReact/) |
-| **Сайт одежды** | HTML, CSS, JS, SCSS | Работа со стилями | [открыть](https://fe1exxx.github.io/Clothes/) |
-| **Портфолио** | React, TS, Vite | Минималистичный лендинг | [открыть](https://fe1exxx.github.io/Portfolio/) |
+### Инструменты
+| Назначение      | Инструменты |
+|-----------------|-------------|
+| **Сборка/запуск** | `npm`, `concurrently`, `ts-node` |
+| **Контроль версий** | Git, GitHub (ветвление, коммиты, pull request) |
+| **Отладка**     | DevTools, `console.table`, `console.error`, анализ стека ошибок |
+| **Конфигурация**| `tsconfig.json`, `vite.config.ts`, `.env` |
+| **Деплой**      | GitHub Pages (frontend), Render / Railway (backend + БД — в процессе освоения) |
 
 ---
 
-##  Профессиональные качества
+## Практика и проекты
 
--  Создавать компоненты и управлять состоянием через `useState`  
--  Работать с API: `fetch`, получение JSON  
--  Типизировать данные  
--  Обрабатывать события  
--  Сохранять данные через localStorage  
--  Фильтровать и искать  
--  Работать с Git: коммиты, ветки, пуллы, откаты  
--  Писать без мутаций
+Реализовано 10+ проектов. Все — с исходным кодом, большинство — с live-демо.
+
+| Название | Стек | Описание | Ссылка |
+|----------|------|----------|--------|
+| **Fullstack: Volleyball Teams** | React, TS, Vite, Express, TypeScript, PostgreSQL | Fullstack-приложение с подключением к PostgreSQL: backend на Express, frontend на React. CRUD не реализован, но архитектура готова к расширению. | [код](https://github.com/Fe1exxx/volleyball) |
+| **Курс: Web‑разработка** | Bootstrap | Обучающий курс по HTML/CSS. Адаптивная структура, карточки, формы. | [демо](https://fe1exxx.github.io/BootStrap) |
+| **Тема + текст** | React, TS | Переключение темы, сохранение текста и темы в `localStorage`, управляемые инпуты. | [код](https://github.com/Fe1exxx/React_changing_the_theme_and_text_and_localStorage) |
+| **Индикатор прокрутки** | Vanilla JS | Плавный скролл, индикатор прокрутки, кнопка возврата наверх. | [код](https://github.com/Fe1exxx/Focus_and_scroll_indicator) |
+| **LaslesVPN Landing** | React, TS, Tailwind | Адаптивный лендинг (первый React-проект, выложенный в открытый доступ). | [демо](https://fe1exxx.github.io/testDeployReact) |
+| **Интернет-магазин одежды** | HTML, CSS, JS, SCSS | Верстка с использованием препроцессора, работа с изображениями, адаптив. | [демо](https://fe1exxx.github.io/Clothes) |
+| **Портфолио** | React, TS, Vite | Минималистичный лендинг-портфолио. | [демо](https://fe1exxx.github.io/Portfolio) |
+
+---
+
+## Профессиональные навыки
+
+- Проектирование и реализация React-компонентов с управлением состоянием  
+- Типизация данных на всех уровнях: от API до UI  
+- Интеграция с REST API: обработка успешных и ошибочных сценариев  
+- Работа с PostgreSQL: создание БД/таблиц, выполнение запросов, обработка результатов  
+- Настройка локального fullstack-окружения: frontend + backend + БД  
+- Использование современных инструментов (`Vite`, `concurrently`, `ts-node`) для ускорения разработки  
+- Понимание концепций: иммутабельность, побочные эффекты, жизненный цикл компонентов  
+- Готовность к fullstack-разработке и деплою реальных приложений
 
 ---
 
@@ -79,4 +100,4 @@
 - **Email**: `turchin2003@outlook.com`  
 - **Telegram**: `@fex_d`  
 - **GitHub**: [@Fe1exxx](https://github.com/Fe1exxx)  
-- **Портфолио**: [fe1exxx.github.io/Portfolio](https://fe1exxx.github.io/Portfolio/)
+- **Портфолио**: [https://fe1exxx.github.io/Portfolio](https://fe1exxx.github.io/Portfolio)
