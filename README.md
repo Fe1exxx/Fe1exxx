@@ -39,30 +39,28 @@ Frontend-разработчик с фокусом на React и TypeScript. Ак
 | Категория       | Технологии |
 |-----------------|------------|
 | **Язык**        | TypeScript (`strict`), JavaScript (ES2022+) |
-| **Фреймворк**   | React (функциональные компоненты, хуки: `useState`, `useEffect`, `useMemo`, `useCallback`, `React.memo`) |
+| **Фреймворк**   | React |
 | **Стили**       | Tailwind CSS, адаптивная и семантическая вёрстка |
 | **Сборка**      | Vite |
-| **Работа с данными** | `fetch`, `async/await`, обработка ошибок, валидация входных данных, защита от `undefined` |
-| **Хранение**    | `localStorage` с гидрацией состояния |
-| **Оптимизация** | избегание мутаций, `useCallback` при передаче колбэков, `passive: true` для scroll |
+| **Работа с данными** | `fetch`, `async/await`, обработка ошибок, валидация входных данных |
+| **Безопасность**| Защита от XSS через экранирование, осознанное использование `dangerouslySetInnerHTML` |
 
 ### Backend
 | Уровень         | Технологии |
 |-----------------|------------|
 | **Среда**       | Node.js |
 | **Фреймворк**   | Express |
-| **База данных** | PostgreSQL, `pg` (пулы соединений, параметризованные запросы) |
+| **База данных** | PostgreSQL, `pg` (параметризованные запросы) |
 | **Безопасность**| `cors`, `.env`, `dotenv`, валидация входных данных |
-| **Архитектура** | REST API (`GET`, `POST`), слоистая структура (роуты → сервисы → БД) |
 
 ### Инструменты
 | Назначение      | Инструменты |
 |-----------------|-------------|
-| **Сборка/запуск** | `npm`, `concurrently`, `ts-node` |
-| **Контроль версий** | Git, GitHub (ветвление, коммиты, pull request) |
-| **Отладка**     | DevTools, `console.table`, `console.error`, анализ стека ошибок |
+| **Менеджер пакетов** | pnpm, npm |
+| **Контроль версий** | Git, GitHub |
+| **Отладка**     | DevTools, анализ стека ошибок |
 | **Конфигурация**| `tsconfig.json`, `vite.config.ts`, `.env` |
-| **Деплой**      | GitHub Pages (frontend), Render / Railway (backend + БД — в процессе освоения) |
+| **Деплой**      | GitHub Pages (frontend) |
 
 ---
 
@@ -72,9 +70,9 @@ Frontend-разработчик с фокусом на React и TypeScript. Ак
 
 | Название | Стек | Описание | Ссылка |
 |----------|------|----------|--------|
-| **Fullstack: Volleyball Teams** | React, TS, Vite, Express, TypeScript, PostgreSQL | Fullstack-приложение с подключением к PostgreSQL: backend на Express, frontend на React. CRUD не реализован, но архитектура готова к расширению. | [код](https://github.com/Fe1exxx/volleyball) |
+| **Fullstack: Volleyball Teams** | React, TS, Vite, Express, PostgreSQL | Fullstack-приложение с подключением к PostgreSQL: backend на Express, frontend на React. Архитектура готова к расширению. | [код](https://github.com/Fe1exxx/volleyball) |
 | **Курс: Web‑разработка** | Bootstrap | Обучающий курс по HTML/CSS. Адаптивная структура, карточки, формы. | [демо](https://fe1exxx.github.io/BootStrap) |
-| **Тема + текст** | React, TS | Переключение темы, сохранение текста и темы в `localStorage`, управляемые инпуты. | [код](https://github.com/Fe1exxx/React_changing_the_theme_and_text_and_localStorage) |
+| **Тема + текст** | React, TS | Переключение темы, сохранение текста и темы в `localStorage`. | [код](https://github.com/Fe1exxx/React_changing_the_theme_and_text_and_localStorage) |
 | **Индикатор прокрутки** | Vanilla JS | Плавный скролл, индикатор прокрутки, кнопка возврата наверх. | [код](https://github.com/Fe1exxx/Focus_and_scroll_indicator) |
 | **LaslesVPN Landing** | React, TS, Tailwind | Адаптивный лендинг (первый React-проект, выложенный в открытый доступ). | [демо](https://fe1exxx.github.io/testDeployReact) |
 | **Интернет-магазин одежды** | HTML, CSS, JS, SCSS | Верстка с использованием препроцессора, работа с изображениями, адаптив. | [демо](https://fe1exxx.github.io/Clothes) |
@@ -87,10 +85,9 @@ Frontend-разработчик с фокусом на React и TypeScript. Ак
 - Проектирование и реализация React-компонентов с управлением состоянием  
 - Типизация данных на всех уровнях: от API до UI  
 - Интеграция с REST API: обработка успешных и ошибочных сценариев  
-- Работа с PostgreSQL: создание БД/таблиц, выполнение запросов, обработка результатов  
+- Работа с PostgreSQL: создание БД/таблиц, выполнение запросов  
 - Настройка локального fullstack-окружения: frontend + backend + БД  
-- Использование современных инструментов (`Vite`, `concurrently`, `ts-node`) для ускорения разработки  
-- Понимание концепций: иммутабельность, побочные эффекты, жизненный цикл компонентов  
+- Использование современных инструментов (`Vite`, `pnpm`) для ускорения разработки  
 - Готовность к fullstack-разработке и деплою реальных приложений
 
 ---
